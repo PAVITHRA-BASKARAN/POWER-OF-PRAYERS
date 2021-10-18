@@ -1,0 +1,283 @@
+@charset "ISO-8859-1";
+
+/* bgc  .bgc
+{*/
+
+body 
+	{
+    background:#ffe5ea ;
+}
+/* HEADER */
+
+.header {
+  color: rgb(96, 47, 47);
+  padding: 1px;
+  text-align: center;
+  font-family: 'Fantasy', monospace;
+  font-size:30px;
+}
+
+/*--------------------------------------------------------- */
+/*navigation bar */
+
+.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color:  #ffc0cb ;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: highlight;
+  font-family: 'Courier New', monospace;
+  
+}
+
+
+
+/*--------------------------- */
+/*cards*/
+.cardbox 
+{	
+	background-color: #ffc0cb ;
+	margin-left:60px ;
+	margin-right:60px;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+	 box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 15px;
+ 
+}
+.space
+{
+	color:#ffc0cb ;
+}
+
+/*------------------------------------------------ */
+/*cards*/
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px 30px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+	margin: 0 -5px; 
+	margin: center
+    
+	}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left:1px;
+  margin-right:10px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px)
+ {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*----------------------------------------------------------------------- */
+/*images and text */
+              .container1 
+              {
+              	margin-left:15px;
+              	margin-right:15px;
+                position: relative;
+                text-align: center;
+                color: white;
+  				
+              }
+
+              .centered {
+              	font-family: 'Courier New', monospace;
+             	font-size: 25px;
+                position: absolute;
+                top: 50%;
+                left: 70%;
+                transform: translate(-50%, -50%);
+                color:black;
+              }
+           	.padam
+           	{
+           	border-left: 5px solid #ffc0cb ;
+           	border-right:5px solid #ffc0cb ;
+           	
+           	}
+/*--------------------------- */
+/*cards button*/
+
+.headofcards 
+{	
+	margin-left:340px;
+	 position: centre;
+	font-family: 'Nunito', sans-serif;
+	color:black;
+}
+/*--------------------------- */
+/*cards button*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+.container{
+  margin-top: 150px;
+  
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow{
+  background-color: #000000;
+  border-radius: 10px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite;
+    animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/*--------------------------- */
+/*cards button*/
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0.2, 2, 0, 0.2);
+}
+
+.button5 {
+  background-color: white;
+  color:  	#ffc0cb ;
+  border: 2px solid #ffc0cb ;
+}
+
+.button5:hover {
+  background-color:#ffc0cb ;
+  color: white;
+}
+    
+    /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+    
+    /*--------------------------login page---------------------------*/
+
+/*=========================================================*/
+.regcard {
+  box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 15px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left:350px;
+  margin-right:350px;
+  margin-top:50px;
+  font-family: 'Fantasy', monospace;
+  background-color:#ffc0cb;
+}
+
+
+.centre {
+  background-color:#ffc0cb;
+  color: rgb(96, 47, 47);
+  padding: 1px;
+  text-align: center;
+  font-family: 'Fantasy', monospace;
+  font-size:30px;
+  margin-top:50px;
+}
+
+.loginsubmit {
+  background-color:#ff8da1; 
+  border-color: #ff8da1;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 15px 1px;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+.resgistrationsubmit {
+  background-color:#ff8da1; 
+  border-color: #ff8da1;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 15px 1px;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
